@@ -1,57 +1,57 @@
 'use strict';
 
-const modal = document.querySelector('.modal');
-const overlay = document.querySelector('.overlay');
-const btnCloseModal = document.querySelector('.close-modal');
-const btnsOpenModal = document.querySelectorAll('.show-modal');
+// const modal = document.querySelector('.modal');
+// const overlay = document.querySelector('.overlay');
+// const btnCloseModal = document.querySelector('.close-modal');
+// const btnsOpenModal = document.querySelectorAll('.show-modal');
 
-for (let i = 0; i < btnsOpenModal.length; i++)
-  btnsOpenModal[i].addEventListener('click', function () {
-    console.log('button clicked');
-  });
+// for (let i = 0; i < btnsOpenModal.length; i++)
+//   btnsOpenModal[i].addEventListener('click', function () {
+//     console.log('button clicked');
+//   });
 
 // react to a click on each of these 3 buttons now we have to attach the event handler to each of these 3 buttons now. we create a loop which loops over the 3 buttons and added event listencer hence when the user click on the button this triggers the event listerner function
 
-const game = {
-  team1: 'Bayern Munich',
-  team2: 'Borrussia Dortmund',
-  players: [
-    [
-      'Neuer',
-      'Pavard',
-      'Martinez',
-      'Alaba',
-      'Davies',
-      'Kimmich',
-      'Goretzka',
-      'Coman',
-      'Muller',
-      'Gnarby',
-      'Lewandowski',
-    ],
-    [
-      'Burki',
-      'Schulz',
-      'Hummels',
-      'Akanji',
-      'Hakimi',
-      'Weigl',
-      'Witsel',
-      'Hazard',
-      'Brandt',
-      'Sancho',
-      'Gotze',
-    ],
-  ],
-  score: '4:0',
-  scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels'],
-  date: 'Nov 9th, 2037',
-  odds: {
-    team1: 1.33,
-    x: 3.25,
-    team2: 6.5,
-  },
-};
+// const game = {
+//   team1: 'Bayern Munich',
+//   team2: 'Borrussia Dortmund',
+//   players: [
+//     [
+//       'Neuer',
+//       'Pavard',
+//       'Martinez',
+//       'Alaba',
+//       'Davies',
+//       'Kimmich',
+//       'Goretzka',
+//       'Coman',
+//       'Muller',
+//       'Gnarby',
+//       'Lewandowski',
+//     ],
+//     [
+//       'Burki',
+//       'Schulz',
+//       'Hummels',
+//       'Akanji',
+//       'Hakimi',
+//       'Weigl',
+//       'Witsel',
+//       'Hazard',
+//       'Brandt',
+//       'Sancho',
+//       'Gotze',
+// //     ],
+//   ],
+//   score: '4:0',
+//   scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels'],
+//   date: 'Nov 9th, 2037',
+//   odds: {
+//     team1: 1.33,
+//     x: 3.25,
+//     team2: 6.5,
+//   },
+// };
 
 // const player1 = [game.players[0]];
 // // console.log(player1);
@@ -83,7 +83,13 @@ const game = {
 // Test data for 6.: First, use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'.
 // Then, call the function again with players from game.score
 
-const printGoals = function() {
-  console.log(`Total no of goals That were scored in toatl `);
+// const printGoals = function() {
+//   console.log(`Total no of goals That were scored in toatl `);
 
-printGoals('Davies', 'Muller', 'Lewandowski','Kimmich');
+// printGoals('Davies', 'Muller', 'Lewandowski','Kimmich');
+
+const rest = new Map();
+
+rest.set('John', 'Son');
+
+console.log(rest);
