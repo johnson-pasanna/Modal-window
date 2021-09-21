@@ -88,8 +88,6 @@
 
 // printGoals('Davies', 'Muller', 'Lewandowski','Kimmich');
 
-const rest = new Map();
-
-rest.set('John', 'Son');
-
-console.log(rest);
+// const rest = new Map();
+// rest.set('John', 'Son');
+// console.log(rest);
